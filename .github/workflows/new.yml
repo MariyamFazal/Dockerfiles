@@ -1,9 +1,0 @@
-on: push
-jobs:
-   First-job:
-      runs-on: ubuntu-latest
-      container: node: 18.18.0
-
-      steps:
-          - run: node --version
-          - run: npm --version
