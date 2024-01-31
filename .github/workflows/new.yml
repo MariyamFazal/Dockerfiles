@@ -2,7 +2,7 @@ on: push
 jobs:
    First-job:
       runs-on: ubuntu-latest
-      container: node: 18.18.0
+      container: node: 17
 
       steps:
           - run: node --version
