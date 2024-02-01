@@ -1,9 +1,7 @@
 on: push
 jobs:
-   First-job:
-      runs-on: ubuntu-latest
-      container: node: 20
-
-      steps:
-          - run: node --version
-          - run: npm --version
+    first-job:
+       runs-on: ubuntu-latest
+       steps:
+            - run: node --version
+            - run: npm --version
